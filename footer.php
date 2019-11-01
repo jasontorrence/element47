@@ -1,7 +1,7 @@
 <footer>
     <div class="col75">
         <p>&copy; Element 47, LLC. 3050 Business Park Circle, Suite 300. Goodlettsville, TN 37072</p>
-        <p><a href="mailto:info@element47.co">info@element47.co</a> + <a href="tel:629-234-0047">629-234-0047</a> + <a href="https://app.e2ma.net/app2/">keymail</a> + <a href="https://webmail.wearekeystone.com/index.php">webmail</a></p>
+        <p><a href="mailto:info@element47.co">info@element47.co</a> + <a href="tel:629-234-0047">629-234-0047</a> + <a href="https://element47.co/privacy-policy/">privacy policy</a> + <a href="https://app.e2ma.net/app2/">keymail</a> + <a href="https://webmail.wearekeystone.com/index.php">webmail</a></p>
     </div>
     <div class="col25 last">
         <p class="social"> <a href="https://www.facebook.com/element47co/" target="_blank">
@@ -49,9 +49,9 @@
 </footer>
 
 <?php
-    wp_footer();
+wp_footer();
 ?>
 
-        </body>
-    </div>
+</body>
+</div>
 </html>
