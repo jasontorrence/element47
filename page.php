@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Element 47 Layouts
+ * Template Name: Page
  */
 
 get_header();

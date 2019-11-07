@@ -404,7 +404,7 @@ h5 {
 		clip-path: polygon(50% 100%, 100% 50%, 100% 100%, 50% 100%);
 	}
 }
-/*-----Page Builder Layouts-----*/
+/*-----Landing Page Layouts-----*/
 
 .lp-section {
 	margin: 100px 0;
@@ -660,6 +660,14 @@ h5 {
 .clearfix:after {
 	clear: both;
 }
+@media(max-width: 1200px) {
+	.iframe-resize {
+		iframe {
+			height: 300px !important;
+		}
+	}
+}
+
 /*-----Grid Leftovers-----*/
 .container-max {
 	 padding: 0 40px;

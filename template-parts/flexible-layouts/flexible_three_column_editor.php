@@ -1,15 +1,13 @@
-
-
-<section class="element-section <?php echo implode(' ', $classes); ?>">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4">
+<?php require get_template_directory() . '/template-parts/flexible-layouts/layout_template_variables.php'; ?>
+<section class="element-section <?php echo $formattedClasses; ?>">
+    <div class="container-max">
+			<div class="col33">
 				<?php the_sub_field('content_1'); ?>
 			</div>
-			<div class="col-md-4">
+			<div class="col33">
 				<?php the_sub_field('content_2'); ?>
 			</div>
-			<div class="col-md-4">
+			<div class="col33">
 				<?php the_sub_field('content_3'); ?>
 			</div>
 		</div>
